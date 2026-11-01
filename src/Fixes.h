@@ -10,3 +10,4 @@ bool InstallTokenRemovalFix();		// TokenRemoval.cpp
 bool InstallWholeGoldBountyFix();	// WholeGoldBounty.cpp
 bool InstallUntranslatedTextFix();	// UntranslatedText.cpp
 bool InstallSavedProjectileFix();	// SavedProjectiles.cpp
+bool InstallMagicShaderRemovalFix();	// MagicShaderRemoval.cpp

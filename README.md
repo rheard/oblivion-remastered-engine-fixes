@@ -13,11 +13,11 @@ any mods, or none.
   spells was in flight when you saved, loading that save without the mod crashed the game.
   Such a spell is now dropped as the save loads.
 - **An item that removes itself in its own script crashed the game.** Many older mods give
-  characters a hidden item, a "token", that does its work in a script and then removes itself;
-  Crime has witnesses crashed this way when a witness died. The removal now waits until the script
-  has finished.
   characters a hidden item, a "token", that does its work in a script and then removes itself. 
   The removal now waits until the script has finished.
+- **Stopping a magic effect on an object could crash the game** if the object was just then
+  appearing or going away, such as an item in a cell at the edge of what's loaded or one just
+  picked up.
 - **"[NL]" in front of names and messages from mods.** Text the Remastered has no translation for,
   such as the names of places and items a mod adds or the messages older mods show, appeared with
   "[NL]" in front. It now shows as written.

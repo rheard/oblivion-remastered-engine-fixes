@@ -18,6 +18,7 @@ add_library(${PROJECT_NAME} SHARED
 	src/WholeGoldBounty.cpp
 	src/UntranslatedText.cpp
 	src/SavedProjectiles.cpp
+	src/MagicShaderRemoval.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE "${OBSE64_DIR}/obse64")

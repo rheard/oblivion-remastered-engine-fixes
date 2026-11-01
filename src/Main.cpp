@@ -28,6 +28,7 @@ namespace
 		{ "The player's bounty in whole gold", InstallWholeGoldBountyFix },
 		{ "\"[NL]\" in front of untranslated text", InstallUntranslatedTextFix },
 		{ "Saved spells whose mod is gone", InstallSavedProjectileFix },
+		{ "Stopping a magic shader on an object with no actor", InstallMagicShaderRemovalFix },
 	};
 }
 

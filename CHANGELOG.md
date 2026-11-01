@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Stopping a magic effect on an object that was just appearing or going away crashed the game.
+
 ## 1.0.0
 
 The first release, with six fixes:
