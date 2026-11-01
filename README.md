@@ -2,7 +2,7 @@
 
 An [OBSE64](https://www.nexusmods.com/oblivionremastered/mods/282) plugin for The Elder Scrolls IV:
 Oblivion Remastered that fixes bugs in the game's engine that mods run into: four crashes, and
-four smaller problems that make some mods misbehave. It adds nothing to your saves, and works with
+five smaller problems that make some mods misbehave. It adds nothing to your saves, and works with
 any mods, or none.
 
 ## What it fixes
@@ -24,6 +24,9 @@ any mods, or none.
 - **"<MISSING STRING TABLE ENTRY>" in place of the name of a mod's scripted spell effect**, as in
   "<MISSING STRING TABLE ENTRY> on Self". Remastered looks these names up as translations,
   which only the game's own have. They now show as the mod wrote them.
+- **Magic effects only glowed on characters and weapons.** Remastered only gives those what draws a
+  magic effect's glow, so the same effect on any other item had particles at most. Other items now
+  glow too.
 - **Spells a mod removed stayed listed in the open magic menu** until it was opened again. The list
   now updates on changes.
 - **Stealing could add a fraction of a gold to your bounty.** Bounty changes are now rounded to

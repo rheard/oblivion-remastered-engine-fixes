@@ -12,3 +12,4 @@ bool InstallUntranslatedTextFix();	// UntranslatedText.cpp
 bool InstallSavedProjectileFix();	// SavedProjectiles.cpp
 bool InstallMagicShaderRemovalFix();	// MagicShaderRemoval.cpp
 bool InstallScriptEffectNamesFix();	// ScriptEffectNames.cpp
+bool InstallItemShaderGlowFix();	// ItemShaderGlow.cpp

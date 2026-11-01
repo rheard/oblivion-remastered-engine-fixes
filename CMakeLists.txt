@@ -20,6 +20,7 @@ add_library(${PROJECT_NAME} SHARED
 	src/SavedProjectiles.cpp
 	src/MagicShaderRemoval.cpp
 	src/ScriptEffectNames.cpp
+	src/ItemShaderGlow.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE "${OBSE64_DIR}/obse64")
