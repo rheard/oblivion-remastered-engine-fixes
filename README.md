@@ -21,6 +21,9 @@ any mods, or none.
 - **"[NL]" in front of names and messages from mods.** Text the Remastered has no translation for,
   such as the names of places and items a mod adds or the messages older mods show, appeared with
   "[NL]" in front. It now shows as written.
+- **"<MISSING STRING TABLE ENTRY>" in place of the name of a mod's scripted spell effect**, as in
+  "<MISSING STRING TABLE ENTRY> on Self". Remastered looks these names up as translations,
+  which only the game's own have. They now show as the mod wrote them.
 - **Spells a mod removed stayed listed in the open magic menu** until it was opened again. The list
   now updates on changes.
 - **Stealing could add a fraction of a gold to your bounty.** Bounty changes are now rounded to

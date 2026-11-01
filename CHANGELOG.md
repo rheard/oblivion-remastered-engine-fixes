@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Stopping a magic effect on an object that was just appearing or going away crashed the game.
+- The name of a mod's scripted spell effect showed as "<MISSING STRING TABLE ENTRY>".
 
 ## 1.0.0
 

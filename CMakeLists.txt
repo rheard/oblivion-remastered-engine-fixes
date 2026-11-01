@@ -19,6 +19,7 @@ add_library(${PROJECT_NAME} SHARED
 	src/UntranslatedText.cpp
 	src/SavedProjectiles.cpp
 	src/MagicShaderRemoval.cpp
+	src/ScriptEffectNames.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE "${OBSE64_DIR}/obse64")
