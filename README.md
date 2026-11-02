@@ -2,8 +2,8 @@
 
 An [OBSE64](https://www.nexusmods.com/oblivionremastered/mods/282) plugin for The Elder Scrolls IV:
 Oblivion Remastered that fixes bugs in the game's engine that mods run into: four crashes, and
-five smaller problems that make some mods misbehave. It adds nothing to your saves, and works with
-any mods, or none.
+five smaller problems that make some mods misbehave. It also fixes one the game has always had,
+Fortify Alchemy doing nothing. It adds nothing to your saves, and works with any mods, or none.
 
 ## What it fixes
 
@@ -31,6 +31,10 @@ any mods, or none.
   now updates on changes.
 - **Stealing could add a fraction of a gold to your bounty.** Bounty changes are now rounded to
   whole gold, which mods that count bounty in whole gold expect. The game shows bounty in whole gold anyway.
+- **Fortify Alchemy did nothing for your potions.** Rings, powers and spells that fortify Alchemy or
+  Luck changed the number on your stats screen, but not the potions you brewed or what you got from
+  eating ingredients. Now they count, and so do Drain and Damage, up to the game's limit of 100
+  Alchemy. Items a patch already made work some other way aren't counted twice.
 
 ## Requirements
 

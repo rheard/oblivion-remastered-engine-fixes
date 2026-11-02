@@ -31,6 +31,7 @@ namespace
 		{ "Stopping a magic shader on an object with no actor", InstallMagicShaderRemovalFix },
 		{ "The names of mods' script effects", InstallScriptEffectNamesFix },
 		{ "Magic shaders' glow on items", InstallItemShaderGlowFix },
+		{ "Fortify Alchemy and Luck in alchemy", InstallFortifyAlchemyFix },
 	};
 }
 

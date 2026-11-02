@@ -5,6 +5,7 @@
 - Stopping a magic effect on an object that was just appearing or going away crashed the game.
 - The name of a mod's scripted spell effect showed as "<MISSING STRING TABLE ENTRY>".
 - Magic effects only glowed on characters and weapons, not on other items.
+- Fortify Alchemy and Fortify Luck did nothing for the potions you brewed or the ingredients you ate.
 
 ## 1.0.0
 
