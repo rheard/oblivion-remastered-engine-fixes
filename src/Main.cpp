@@ -32,6 +32,7 @@ namespace
 		{ "The names of mods' script effects", InstallScriptEffectNamesFix },
 		{ "Magic shaders' glow on items", InstallItemShaderGlowFix },
 		{ "Fortify Alchemy and Luck in alchemy", InstallFortifyAlchemyFix },
+		{ "Script effects' magnitude in the magic menus", InstallScriptEffectMagnitudeFix },
 	};
 }
 

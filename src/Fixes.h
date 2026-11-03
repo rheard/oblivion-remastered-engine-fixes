@@ -14,3 +14,4 @@ bool InstallMagicShaderRemovalFix();	// MagicShaderRemoval.cpp
 bool InstallScriptEffectNamesFix();	// ScriptEffectNames.cpp
 bool InstallItemShaderGlowFix();	// ItemShaderGlow.cpp
 bool InstallFortifyAlchemyFix();	// FortifyAlchemy.cpp
+bool InstallScriptEffectMagnitudeFix();	// ScriptEffectMagnitude.cpp

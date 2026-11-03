@@ -2,7 +2,7 @@
 
 An [OBSE64](https://www.nexusmods.com/oblivionremastered/mods/282) plugin for The Elder Scrolls IV:
 Oblivion Remastered that fixes bugs in the game's engine that mods run into: four crashes, and
-five smaller problems that make some mods misbehave. It also fixes one the game has always had,
+six smaller problems that make some mods misbehave. It also fixes one the game has always had,
 Fortify Alchemy doing nothing. It adds nothing to your saves, and works with any mods, or none.
 
 ## What it fixes
@@ -27,6 +27,9 @@ Fortify Alchemy doing nothing. It adds nothing to your saves, and works with any
 - **Magic effects only glowed on characters and weapons.** Remastered only gives those what draws a
   magic effect's glow, so the same effect on any other item had particles at most. Other items now
   glow too.
+- **The magic menus hid the magnitude of a mod's scripted spell effect.** They only showed how long
+  it lasted, even for a spell whose strength or reach is set in its record. It now shows as the game's
+  own effects do, in feet for one that looks like a detection spell.
 - **Spells a mod removed stayed listed in the open magic menu** until it was opened again. The list
   now updates on changes.
 - **Stealing could add a fraction of a gold to your bounty.** Bounty changes are now rounded to

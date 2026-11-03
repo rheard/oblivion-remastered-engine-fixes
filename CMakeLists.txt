@@ -22,6 +22,7 @@ add_library(${PROJECT_NAME} SHARED
 	src/ScriptEffectNames.cpp
 	src/ItemShaderGlow.cpp
 	src/FortifyAlchemy.cpp
+	src/ScriptEffectMagnitude.cpp
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE "${OBSE64_DIR}/obse64")
